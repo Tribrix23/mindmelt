@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/hidden/brain.png" type="image/png">
+    <title>Mind Melt - Logic Gauntlet</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/hidden/style.css">
+    
+</head>
+<body>
+    <audio id="theme-music" loop src="/hidden/flash.mp3" preload="auto"></audio>
+<audio id="correct-sound" src="/hidden/correct.mp3" preload="auto"></audio>
+<audio id="wrong-sound" src="/hidden/wrong.mp3" preload="auto"></audio>
+    <div class="container">
+        <header>
+            <h1>🧠 MIND MELT 🧠</h1>
+            <p class="tagline">The logic test that judges you</p>
+        </header>
+
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <div class="intro">
+                <p>15 random logic questions await...</p>
+                <p>Some are easy, some will break you</p>
+                <p>All will judge you</p>
+            </div>
+            <button id="start-btn">BEGIN THE PAIN</button>
+            <div class="high-scores">
+                <h3>Recent Victims:</h3>
+                <div id="score-display"></div>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="difficulty-display" id="difficulty-display">
+                    Difficulty: <span id="current-difficulty" class="difficulty-display">?</span>
+                </div>
+                <div class="score-display">
+                    Score: <span id="current-score">0</span>
+                </div>
+                <div class="progress">
+                    Question <span id="current-question">1</span>/15
+                </div>
+                <div class="timer">
+                    <span id="time">30</span>s
+                </div>
+            </div>
+            <div class="question-container">
+                <h2 id="question-text">Question will appear here</h2>
+                <div class="options-container">
+                    <button class="option-btn" data-index="0">Option 1</button>
+                    <button class="option-btn" data-index="1">Option 2</button>
+                    <button class="option-btn" data-index="2">Option 3</button>
+                    <button class="option-btn" data-index="3">Option 4</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <h2>YOUR BRAIN HAS BEEN JUDGED</h2>
+            <div class="result-container">
+                <p>Final score: <span id="final-score">0</span></p>
+                <div class="difficulty-breakdown" id="difficulty-breakdown"></div>
+                <p id="rating-text"></p>
+                <p id="roast-text"></p>
+                <div class="result-buttons">
+                    <button id="retry-btn">Try Again (Why?)</button>
+                    <button id="new-quiz-btn">New Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/hidden/script.js"></script>
+</body>
+</html>
