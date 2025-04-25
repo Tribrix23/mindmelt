@@ -60,7 +60,7 @@ window.addEventListener('load', async () => {
 // Main game functions
 async function loadQuestions() {
   try {
-    const response = await fetch('/hidden/questions.txt');
+    const response = await fetch('questions.txt');
     if (!response.ok) throw new Error('Failed to load questions');
     
     const text = await response.text();
