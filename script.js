@@ -146,7 +146,7 @@ function startQuiz() {
 elements.themeMusic.play()
   .catch(e => console.log("Audio play failed:", e));
   // Shuffle questions and take first 15
-  questions = shuffleArray(questions).slice(0, 20);
+  questions = shuffleArray(questions).slice(0, 30);
   
   // Update UI
   elements.startScreen.classList.remove('active');
