@@ -1,0 +1,226 @@
+/* GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background: linear-gradient(to bottom right, #1c1c1c, #333);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 850px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #00ffc8;
+    backdrop-filter: blur(8px);
+}
+
+/* HEADER */
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: #00ffc8;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 0 0 8px #00ffc8;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+/* SCREENS */
+.screen {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.screen.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* INTRO TEXT */
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #eee;
+}
+
+/* BUTTON STYLES */
+button {
+    font-family: 'VT323', monospace;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#start-btn, #retry-btn, #new-quiz-btn {
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    background: #00ffc8;
+    color: #000;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+#start-btn:hover, #retry-btn:hover, #new-quiz-btn:hover {
+    transform: scale(1.05);
+    background: #00e6b3;
+}
+
+/* HIGH SCORES */
+.high-scores {
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px dashed #00ffc8;
+    border-radius: 10px;
+}
+
+#score-display {
+    margin-top: 10px;
+}
+
+/* QUIZ UI */
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00ffc8;
+}
+
+.difficulty-display,
+.score-display,
+.progress,
+.timer {
+    font-size: 1rem;
+}
+
+/* TIMER PULSE EFFECT */
+.timer {
+    font-weight: bold;
+    animation: glowTimer 1s infinite alternate;
+}
+
+@keyframes glowTimer {
+    from { color: #00ffc8; }
+    to { color: #fff; }
+}
+
+/* QUESTION TEXT */
+#question-text {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+/* OPTIONS */
+.options-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.option-btn {
+    background: #444;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    border: 2px solid transparent;
+}
+
+.option-btn:hover {
+    background: #00ffc8;
+    color: #000;
+}
+
+/* DIFFICULTY COLORS */
+.difficulty-easy { background-color: #4caf50; }
+.difficulty-medium { background-color: #ff9800; }
+.difficulty-hard { background-color: #f44336; }
+.difficulty-insane { background-color: #9c27b0; }
+.difficulty-trap {
+    background-color: #607d8b;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.6; }
+    100% { opacity: 1; }
+}
+
+/* RESULT SCREEN */
+#result-screen h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #00ffc8;
+    margin-bottom: 20px;
+}
+
+.result-container {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid #00ffc8;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#rating-text {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    color: #f8bbd0;
+    text-transform: uppercase;
+}
+
+#roast-text {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: #ff9800;
+    font-style: italic;
+    min-height: 80px;
+}
+
+/* BUTTON GROUPING */
+.result-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.difficulty-breakdown {
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+}
