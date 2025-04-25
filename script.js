@@ -12,7 +12,7 @@ let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let timer;
-let timeLeft = 30;
+let timeLeft = 20;
 let quizStarted = false;
 let difficultyStats = {
   easy: { correct: 0, total: 0 },
