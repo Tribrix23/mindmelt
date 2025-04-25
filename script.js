@@ -207,7 +207,7 @@ function updateDifficultyDisplay(difficulty) {
 
 function startTimer() {
   clearInterval(timer);
-  timeLeft = 30;
+  timeLeft = 20;
   elements.time.textContent = timeLeft;
   
   timer = setInterval(() => {
