@@ -1,48 +1,167 @@
-easy | What is 2+2? | 3 | 4 | 5 | 6 | 2
-easy | Which planet is closest to the sun? | Venus | Mars | Mercury | Jupiter | 3
-medium | If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies? | Yes | No | Maybe | Not enough information | 1
-hard | A man builds a house with all 4 walls facing south. A bear walks by. What color is the bear? | Brown | Black | White | No bear would walk by | 3
-insane | What is the smallest positive integer that is equal to the sum of its proper divisors excluding itself? | 6 | 12 | 28 | 36 | 1
-easy | How many sides does a square have? | 2 | 3 | 4 | 5 | 3
-medium | Which number comes next in the sequence: 2, 4, 8, 16, ...? | 24 | 32 | 64 | 128 | 2
-hard | If you overtake the second person in a race, what position are you in? | First | Second | Third | Last | 2
-insane | If a rooster lays an egg on the roof of a barn, which way will the egg roll? | North | South | East | Roosters don't lay eggs | 4
-easy | What is the capital of France? | London | Berlin | Paris | Madrid | 3
-medium | If a doctor gives you 3 pills and tells you to take one every half hour, how long will they last? | 1 hour | 1.5 hours | 2 hours | 2.5 hours | 2
-hard | Some months have 31 days, others have 30. How many have 28? | 1 | 2 | 12 | All of them | 4
-insane | You're in a race and you pass the person in last place. What position are you in now? | First | Last | Second to last | Can't determine | 3
-easy | What is the square root of 16? | 2 | 3 | 4 | 5 | 3
-medium | Which is heavier: a pound of feathers or a pound of bricks? | Feathers | Bricks | They weigh the same | Depends on the type of bricks | 3
-easy | What color is the sky? | Red | Green | Blue | Yellow | 3
-hard | What is the 100th digit of Pi? | 2 | 7 | 3 | 5 | 2
-medium | What comes after the letter Z? | AA | A | Z | No more letters | 1
-easy | What is 10 times 10? | 100 | 1000 | 10 | 1 | 1
-medium | How many continents are there? | 7 | 6 | 8 | 5 | 1
-hard | What is the capital of Australia? | Melbourne | Sydney | Canberra | Perth | 3
-insane | In what year did the Titanic sink? | 1902 | 1912 | 1922 | 1888 | 2
-easy | What is 3 multiplied by 3? | 6 | 9 | 12 | 18 | 2
-medium | How many months have 31 days? | 10 | 11 | 12 | 9 | 2
-hard | What is the chemical symbol for water? | O | H2O | CO2 | O2 | 2
-insane | What is the only number that is both the square of a number and the cube of a number? | 1 | 64 | 27 | 9 | 2
-easy | What is 5-3? | 2 | 3 | 4 | 1 | 1
-medium | Which of these is a primary color? | Green | Purple | Yellow | Orange | 3
-hard | If I throw a ball in the air, what happens next? | It falls back down | It floats away | It explodes | It vanishes | 1
-insane | Who invented the telephone? | Alexander Graham Bell | Thomas Edison | Nikola Tesla | Marie Curie | 1
+easy | If all birds can fly and a penguin is a bird, then: | Penguins can fly | Penguins cannot fly | Some birds can't fly | Penguins don't exist | 2
+easy | If today is Monday, what day comes after tomorrow? | Monday | Tuesday | Wednesday | Thursday | 3
+easy | All roses are flowers. Some flowers fade quickly. Therefore: | All roses fade quickly | Some roses fade quickly | No roses fade quickly | Flowers aren't roses | 2
+easy | If no reptiles are mammals and all snakes are reptiles, then: | Some snakes are mammals | No snakes are mammals | All mammals are snakes | Snakes aren't reptiles | 2
+easy | John is older than Sarah. Sarah is older than Emma. Who is youngest? | John | Sarah | Emma | Can't tell | 3
 
-// Logic and tricky questions with humor
+medium | If "some A are B" and "all B are C", then: | Some A are C | All A are C | No A are C | Some C are A | 1
+medium | In a room where everyone either always lies or tells the truth, a person says "I am lying." What are they? | Truth-teller | Liar | Could be either | Paradox | 2
+medium | If "whenever it rains, the street gets wet" is true, and the street is dry, then: | It didn't rain | It rained | Maybe rained | Street is broken | 1
+medium | All dogs are animals. No cats are dogs. Therefore: | No cats are animals | Some cats are animals | All animals are dogs | Some animals aren't cats | 2
+medium | Three people make statements: A says "B is lying", B says "C is lying", C says "Both are lying". Who is telling the truth? | A | B | C | None | 3
 
-easy | How many months have 28 days? | 1 | 2 | 12 | All of them | 4 (Spoiler alert: They all do! Even February...)
-medium | If a plane crashes on the border of the US and Canada, where do they bury the survivors? | US | Canada | Both | They don't bury survivors | 4 (Spoiler: Survivors don’t get buried. Are you trying to bury them alive?)
-hard | If you have 3 apples and you take away 2, how many do you have? | 1 | 2 | 3 | 0 | 2 (Oh, you thought I was trying to trick you. You’ve got the 2 you took!)
-insane | You’re in a room with no windows or doors. How do you escape? | Break the wall | Wake up from the dream | Wait for someone to rescue you | Think outside the box | 2 (Spoiler: You escape by waking up. The room was all a dream!)
-easy | How many letters are in the alphabet? | 24 | 25 | 26 | 27 | 3 (Spoiler: You should probably check your spelling next time.)
-medium | What weighs more, a pound of feathers or a pound of gold? | Feathers | Gold | They weigh the same | Depends on the type of feathers | 3 (They weigh the same, just like a pound of anything else. But try telling that to a gold enthusiast...)
-hard | How many times can you subtract 5 from 25? | 9 | 10 | 1 | 11 | 3 (Only once... then you’ll be subtracting from 20. Tricky, huh?)
-insane | What is the sound of one hand clapping? | Silence | A loud sound | A soft sound | Impossible | 1 (Trick question: one hand can’t clap. But maybe it's silently judging you.)
-medium | If a rooster lays an egg on the roof, which way does the egg roll? | North | South | East | Roosters don’t lay eggs | 4 (You’re really not getting this, are you? Roosters don’t lay eggs!)
-hard | If there are 3 apples and you take away 2, how many do you have? | 1 | 2 | 3 | 0 | 2 (The answer is 2! If you took 2, then you have 2, not 1.)
-insane | If a plane crashes on the border of the US and Mexico, where do they bury the survivors? | US | Mexico | Both | Nowhere | 4 (You’re not burying survivors. What do you think this is, a horror movie?)
-medium | Which is correct: "The Earth is flat" or "The Earth is round"? | Flat | Round | Both | Neither | 2 (The Earth is round, but who knows? Maybe flat Earth theory is just a global conspiracy.)
-easy | What color is a stop sign? | Red | Green | Blue | Yellow | 1 (It’s the same color you see when you’re about to hit the brakes—red!)
-hard | If you have a bucket and a sponge and you fill the bucket with water, how much water will you have? | None | Full | A little | A lot | 2 (Spoiler: You’ll have a full bucket of water... unless you’ve managed to dry the sponge somehow.)
-insane | What is the only number that is both the square of a number and the cube of a number? | 1 | 64 | 27 | 9 | 2 (Trick question: Only 1 works as both a square and a cube. Look out for those!)
+hard | In a village where some always lie and others always tell the truth, a person says "If I asked you whether I'm truthful, you'd say yes." What are they? | Truth-teller | Liar | Could be either | Paradox | 1
+hard | If "no A are B" and "some C are B", then "some C are not A" is: | Always true | Sometimes true | Never true | Invalid | 1
+hard | You meet two people: one says "At least one of us always lies." The other says nothing. Who is truthful? | First speaker | Second speaker | Both | Neither | 1
+hard | If "most A are B" and "most B are C", then "most A are C" is: | Always true | Sometimes true | Never true | Invalid | 2
+hard | In a logic puzzle where statements made on weekends are false, and someone says "I said this yesterday on a weekday," when was it said? | Weekday | Weekend | Holiday | Never | 1
+
+insane | If "everything I say is false" is true, then: | It's false | It's true | Both | Neither | 1
+insane | A law states "This law is invalid." Is the law valid? | Yes | No | Paradox | Depends | 3
+insane | In a system where every rule has an exception, can there be a rule without exceptions? | Yes | No | Maybe | System collapses | 2
+insane | A statement says "The next sentence is false. The previous sentence is true." What is true? | First is true | Second is true | Both false | Paradox | 4
+insane | If "all generalizations are false" is true, then: | It's false | It's true | Both | Neither | 1
+
+easy | If all cars are vehicles and some vehicles are trucks, then: | All cars are trucks | Some cars are trucks | No cars are trucks | Some trucks are cars | 2
+easy | If the day before yesterday was Friday, what is today? | Sunday | Monday | Tuesday | Wednesday | 1
+easy | All doctors are educated. Some educated people are teachers. Therefore: | All doctors are teachers | Some doctors are teachers | No doctors are teachers | Teachers aren't educated | 2
+easy | If no fish are mammals and all dolphins are mammals, then: | Some dolphins are fish | No dolphins are fish | All fish are dolphins | Dolphins aren't mammals | 2
+easy | Amy is taller than Ben. Ben is taller than Chris. Who is tallest? | Amy | Ben | Chris | Can't tell | 1
+
+medium | If "some X are Y" and "no Y are Z", then: | Some X are Z | No X are Z | Some X are not Z | All X are Z | 3
+medium | In a room where people either always lie or always tell truth, someone says "If I'm lying, then you're truthful." What are they? | Truth-teller | Liar | Could be either | Paradox | 1
+medium | If "whenever the alarm sounds, there's danger" is true, and there's no danger, then: | Alarm didn't sound | Alarm sounded | Maybe sounded | Alarm is broken | 1
+medium | All birds have feathers. No mammals have feathers. Therefore: | No mammals are birds | Some mammals are birds | All birds are mammals | Some birds aren't animals | 1
+medium | Three people: A says "B lies", B says "C lies", C says "A and B lie". Who is truthful? | A | B | C | None | 3
+
+hard | If "all P are Q" is false, then: | Some P are not Q | No P are Q | Some Q are not P | All Q are P | 1
+hard | In a town where red hats mean truth-tellers and blue hats mean liars, someone says "My hat is blue." What color is their hat? | Red | Blue | Can't tell | No hat | 1
+hard | If "sometimes when X happens, Y happens" is true, and Y happens, then: | X happened | X didn't happen | Maybe X happened | Y is impossible | 3
+hard | All thinkers are philosophers. Some philosophers are writers. Therefore: | All thinkers are writers | Some thinkers are writers | No thinkers are writers | Writers aren't thinkers | 2
+hard | If "nothing that is A is B" and "everything that is C is B", then: | Nothing is A | Nothing is C | No A are C | All C are A | 3
+
+insane | If "this statement has never been true" is true, then: | It's false now | It was true before | It's always false | Paradox | 4
+insane | A book contains the sentence "Every rule in this book has an exception." Is this rule valid? | Yes | No | Only if others are | Paradox | 4
+insane | If "all statements on this page are false" is the only statement on the page, then: | It's true | It's false | Both | Neither | 2
+insane | In a language where "da" means yes and "ja" means no (unknown to you), someone answers "da" to "Is 'da' yes?" What does "da" mean? | Yes | No | Maybe | Can't tell | 1
+insane | If "the following statement is true" precedes "the previous statement is false", then: | First is true | Second is true | Both false | Paradox | 4
+
+easy | If all books are educational and some novels are books, then: | All novels are educational | Some novels are educational | No novels are educational | Educational materials aren't books | 2
+easy | If yesterday was Saturday, what is tomorrow? | Sunday | Monday | Tuesday | Wednesday | 2
+easy | All lawyers went to law school. Some law school graduates are judges. Therefore: | All lawyers are judges | Some lawyers are judges | No lawyers are judges | Judges aren't lawyers | 2
+easy | If no birds are fish and all penguins are birds, then: | Some penguins are fish | No penguins are fish | All fish are penguins | Penguins aren't birds | 2
+easy | Tom is faster than Jerry. Jerry is faster than Spike. Who is slowest? | Tom | Jerry | Spike | Can't tell | 3
+
+medium | If "no P are Q" and "some R are Q", then: | Some R are not P | All R are P | No R are P | Some P are R | 1
+medium | In a kingdom where knights tell truth and knaves lie, someone says "If I'm a knight, then so are you." What are they? | Knight | Knave | Could be either | Paradox | 2
+medium | If "whenever the bell rings, class ends" is true, and class hasn't ended, then: | Bell didn't ring | Bell rang | Maybe rang | Bell is broken | 1
+medium | All scientists are researchers. No artists are scientists. Therefore: | No artists are researchers | Some artists are researchers | All researchers are artists | Some researchers aren't artists | 2
+medium | Three people: X says "Y lies", Y says "Z lies", Z says "X and Y lie". Who is truthful? | X | Y | Z | None | 3
+
+hard | If "most X are Y" and "few Y are Z", then "few X are Z" is: | Always true | Sometimes true | Never true | Invalid | 2
+hard | In a logic game where statements made after 6pm are false, someone says "I made this statement before 6pm today." When was it made? | Before 6pm | After 6pm | Exactly 6pm | Never | 1
+hard | If "all A are B" is false, then: | Some A are not B | No A are B | Some B are not A | All B are A | 1
+hard | All poets are creative. Some creative people are musicians. Therefore: | All poets are musicians | Some poets are musicians | No poets are musicians | Musicians aren't creative | 2
+hard | If "nothing that is P is Q" and "everything that is R is Q", then: | Nothing is P | Nothing is R | No P are R | All R are P | 3
+
+insane | If "this statement was false yesterday" is true today, then: | It was true yesterday | It was false yesterday | It's always false | Paradox | 1
+insane | A rule states "This rule cannot be enforced." Is the rule enforceable? | Yes | No | Maybe | Paradox | 4
+insane | If "all conclusions on this page are wrong" is the only conclusion on the page, then: | It's correct | It's wrong | Both | Neither | 2
+insane | In a culture where "bal" means yes and "da" means no (unknown to you), someone answers "da" to "Is 'bal' yes?" What does "bal" mean? | Yes | No | Maybe | Can't tell | 1
+insane | If "the next statement is true" precedes "the previous statement is false", then: | First is true | Second is true | Both false | Paradox | 4
+
+easy | If all cats are animals and some animals are pets, then: | All cats are pets | Some cats are pets | No cats are pets | Some pets are cats | 2  
+easy | If the day after tomorrow is Sunday, what is today? | Friday | Saturday | Sunday | Monday | 1  
+easy | All doctors are educated. Some educated people are teachers. Therefore: | All doctors are teachers | Some doctors are teachers | No doctors are teachers | Teachers aren't educated | 2  
+easy | If no birds are mammals and all penguins are birds, then: | Some penguins are mammals | No penguins are mammals | All mammals are penguins | Penguins aren't birds | 2  
+easy | Lisa is shorter than Mary. Mary is shorter than Jane. Who is tallest? | Lisa | Mary | Jane | Can't tell | 3  
+
+medium | If "some X are Y" and "no Y are Z", then: | Some X are Z | No X are Z | Some X are not Z | All X are Z | 3  
+medium | In a room where truth-tellers say true statements and liars say false statements, someone says "If I'm a liar, then you're a truth-teller." What are they? | Truth-teller | Liar | Could be either | Paradox | 1  
+medium | If "whenever the phone rings, someone is calling" is true, and no one is calling, then: | Phone didn't ring | Phone rang | Maybe rang | Phone is broken | 1  
+medium | All birds have wings. No mammals have wings. Therefore: | No mammals are birds | Some mammals are birds | All birds are mammals | Some birds aren't animals | 1  
+medium | Three people: X says "Y is lying", Y says "Z is lying", Z says "X and Y are lying". Who is telling the truth? | X | Y | Z | None | 3  
+
+hard | If "most A are B" and "few B are C", then "few A are C" is: | Always true | Sometimes true | Never true | Invalid | 2  
+hard | In a logic game where statements made at night are false, someone says "I made this statement during the day." When was it made? | Day | Night | Twilight | Never | 1  
+hard | If "all P are Q" is false, then: | Some P are not Q | No P are Q | Some Q are not P | All Q are P | 1  
+hard | All artists are creative. Some creative people are musicians. Therefore: | All artists are musicians | Some artists are musicians | No artists are musicians | Musicians aren't creative | 2  
+hard | If "nothing that is X is Y" and "everything that is Z is Y", then: | Nothing is X | Nothing is Z | No X are Z | All Z are X | 3  
+
+insane | If "this statement was true yesterday" is false today, then: | It was true yesterday | It was false yesterday | It's always true | Paradox | 2  
+insane | A rule states "This rule can be broken." Is the rule breakable? | Yes | No | Maybe | Paradox | 4  
+insane | If "all claims on this page are false" is the only claim on the page, then: | It's true | It's false | Both | Neither | 2  
+insane | In a culture where "zo" means yes and "pe" means no (unknown to you), someone answers "pe" to "Does 'zo' mean yes?" What does "zo" mean? | Yes | No | Maybe | Can't tell | 1  
+insane | If "the following statement is true" precedes "the preceding statement is false", then: | First is true | Second is true | Both false | Paradox | 4  
+
+easy | If all students are learners and some learners are teachers, then: | All students are teachers | Some students are teachers | No students are teachers | Some teachers are students | 2  
+easy | If tomorrow will be Thursday, what was yesterday? | Monday | Tuesday | Wednesday | Thursday | 2  
+easy | All chefs can cook. Some who can cook are bakers. Therefore: | All chefs are bakers | Some chefs are bakers | No chefs are bakers | Bakers can't cook | 2  
+easy | If no trees are animals and all oaks are trees, then: | Some oaks are animals | No oaks are animals | All animals are oaks | Oaks aren't trees | 2  
+easy | Tom is faster than Jerry. Jerry is faster than Spike. Who is fastest? | Tom | Jerry | Spike | Can't tell | 1  
+
+medium | If "no A are B" and "some C are B", then: | Some C are not A | All C are A | No C are A | Some A are C | 1  
+medium | In a kingdom where knights tell truth and knaves lie, someone says "If I'm a knave, then you're a knight." What are they? | Knight | Knave | Could be either | Paradox | 1  
+medium | If "whenever the door opens, the bell rings" is true, and the bell isn't ringing, then: | Door didn't open | Door opened | Maybe opened | Bell is broken | 1  
+medium | All fish live in water. No mammals live in water. Therefore: | No mammals are fish | Some mammals are fish | All fish are mammals | Some fish aren't animals | 1  
+medium | Three people: A says "B lies", B says "C lies", C says "A lies". Who is telling the truth? | A | B | C | None | 4  
+
+hard | If "few X are Y" and "most Y are Z", then "few X are Z" is: | Always true | Sometimes true | Never true | Invalid | 2  
+hard | In a game where weekend statements are false, someone says "I made this statement on a weekday." When was it made? | Weekday | Weekend | Holiday | Never | 1  
+hard | If "some P are not Q" is true, then: | All P are Q is false | No P are Q is true | Some Q are P is false | All Q are P is true | 1  
+hard | All writers are readers. Some readers are editors. Therefore: | All writers are editors | Some writers are editors | No writers are editors | Editors don't read | 2  
+hard | If "nothing that is M is N" and "everything that is O is N", then: | Nothing is M | Nothing is O | No M are O | All O are M | 3  
+
+insane | If "this statement has never been false" is true, then: | It's always been true | It was false before | It's false now | Paradox | 1  
+insane | A law states "This law must be disobeyed." Should you obey it? | Yes | No | Maybe | Paradox | 2  
+insane | If "every rule here has an exception" is the only rule, then: | It has an exception | It has no exception | Both | Neither | 1  
+insane | In a language where "ke" means yes and "lo" means no (unknown to you), someone answers "lo" to "Does 'ke' mean no?" What does "ke" mean? | Yes | No | Maybe | Can't tell | 1  
+insane | If "the next statement is false" precedes "the previous statement is true", then: | First is true | Second is true | Both false | Paradox | 4  
+
+easy | If all squares are rectangles and some rectangles are long, then: | All squares are long | Some squares are long | No squares are long | Some long shapes aren't rectangles | 2  
+easy | If the day before yesterday was Tuesday, what is tomorrow? | Thursday | Friday | Saturday | Sunday | 2  
+easy | All pilots can fly. Some who can fly are astronauts. Therefore: | All pilots are astronauts | Some pilots are astronauts | No pilots are astronauts | Astronauts can't fly | 2  
+easy | If no planets are stars and all Earth-like objects are planets, then: | Some Earth-like objects are stars | No Earth-like objects are stars | All stars are Earth-like | Earth-like objects aren't planets | 2  
+easy | Ann is wiser than Beth. Beth is wiser than Carol. Who is wisest? | Ann | Beth | Carol | Can't tell | 1  
+
+medium | If "some P are Q" and "no Q are R", then: | Some P are R | No P are R | Some P are not R | All P are R | 3  
+medium | In a village where saints always tell truth and sinners always lie, someone says "If I'm a sinner, then you're a saint." What are they? | Saint | Sinner | Could be either | Paradox | 1  
+medium | If "whenever the light flashes, the battery is low" is true, and the battery isn't low, then: | Light didn't flash | Light flashed | Maybe flashed | Light is broken | 1  
+medium | All whales are mammals. No fish are mammals. Therefore: | No fish are whales | Some fish are whales | All whales are fish | Some whales aren't animals | 1  
+medium | Three people: X says "Y is honest", Y says "Z is honest", Z says "X is dishonest". Who is honest? | X | Y | Z | None | 3  
+
+hard | If "few A are B" and "most B are C", then "few A are C" is: | Always true | Sometimes true | Never true | Invalid | 2  
+hard | In a logic puzzle where holiday statements are false, someone says "I made this statement on a non-holiday." When was it made? | Non-holiday | Holiday | Weekend | Never | 1  
+hard | If "all S are P" is false, then: | Some S are not P | No S are P | Some P are not S | All P are S | 1  
+hard | All singers are performers. Some performers are dancers. Therefore: | All singers are dancers | Some singers are dancers | No singers are dancers | Dancers don't perform | 2  
+hard | If "nothing that is X is Y" and "everything that is Z is Y", then: | Nothing is X | Nothing is Z | No X are Z | All Z are X | 3  
+
+insane | If "this statement was false tomorrow" is true today, then: | It will be false tomorrow | It's false today | It's always true | Paradox | 1  
+insane | A principle states "This principle is unreliable." Is it reliable? | Yes | No | Maybe | Paradox | 4  
+insane | If "all assertions here are wrong" is the only assertion, then: | It's correct | It's wrong | Both | Neither | 2  
+insane | In a culture where "ta" means yes and "fa" means no (unknown to you), someone answers "fa" to "Does 'ta' mean yes?" What does "ta" mean? | Yes | No | Maybe | Can't tell | 1  
+insane | If "the subsequent statement is true" precedes "the prior statement is false", then: | First is true | Second is true | Both false | Paradox | 4  
+
+easy | If all roses are flowers and some flowers are red, then: | All roses are red | Some roses are red | No roses are red | Some red things aren't flowers | 2  
+easy | If yesterday was Sunday, what is tomorrow? | Monday | Tuesday | Wednesday | Thursday | 2  
+easy | All engineers are problem-solvers. Some problem-solvers are artists. Therefore: | All engineers are artists | Some engineers are artists | No engineers are artists | Artists don't solve problems | 2  
+easy | If no metals are organic and all irons are metals, then: | Some irons are organic | No irons are organic | All organic things are iron | Irons aren't metals | 2  
+easy | Bob is stronger than Tim. Tim is stronger than Sam. Who is strongest? | Bob | Tim | Sam | Can't tell | 1  
+
+medium | If "no P are Q" and "some R are Q", then: | Some R are not P | All R are P | No R are P | Some P are R | 1  
+medium | In a land where angels always tell truth and devils always lie, someone says "If I'm a devil, then you're an angel." What are they? | Angel | Devil | Could be either | Paradox | 1  
+medium | If "whenever the alarm beeps, there's an error" is true, and there's no error, then: | Alarm didn't beep | Alarm beeped | Maybe beeped | Alarm is broken | 1  
+medium | All diamonds are gems. No rocks are gems. Therefore: | No rocks are diamonds | Some rocks are diamonds | All diamonds are rocks | Some diamonds aren't gems | 1  
+medium | Three people: A says "B is truthful", B says "C is truthful", C says "A is lying". Who is truthful? | A | B | C | None | 3  
+
+hard | If "few X are Y" and "most Y are Z", then "few X are Z" is: | Always true | Sometimes true | Never true | Invalid | 2  
+hard | In a game where evening statements are false, someone says "I made this statement in the morning." When was it made? | Morning | Evening | Afternoon | Never | 1  
+hard | If "all A are B" is false, then: | Some A are not B | No A are B | Some B are not A | All B are A | 1  
+hard | All poets are writers. Some writers are novelists. Therefore: | All poets are novelists | Some poets are novelists | No poets are novelists | Novelists don't write | 2  
+hard | If "nothing that is P is Q" and "everything that is R is Q", then: | Nothing is P | Nothing is R | No P are R | All R are P | 3  
+
+insane | If "this statement will be false tomorrow" is true today, then: | It will be false tomorrow | It's false today | It's always true | Paradox | 1  
+insane | A decree states "This decree must be ignored." Should you obey it? | Yes | No | Maybe | Paradox | 2  
+insane | If "all statements here are untrue" is the only statement, then: | It's true | It's false | Both | Neither | 2  
+insane | In a language where "ni" means yes and "ko" means no (unknown to you), someone answers "ko" to "Does 'ni' mean no?" What does "ni" mean? | Yes | No | Maybe | Can't tell | 1  
+insane | If "the next claim is true" precedes "the previous claim is false", then: | First is true | Second is true | Both false | Paradox | 4
