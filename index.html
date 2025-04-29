@@ -19,6 +19,19 @@
     
 </head>
 <body>
+      <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'wait_for_update': 500,
+  });
+  gtag('js', new Date());
+  gtag('config', 'Google tag ID');
+      </script>
     <audio id="theme-music" loop src="flash.mp3" preload="auto"></audio>
 <audio id="correct-sound" src="correct.mp3" preload="auto"></audio>
 <audio id="wrong-sound" src="wrong.mp3" preload="auto"></audio>
